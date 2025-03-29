@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: a316660074eb6a54ebba91b44020e654
+guid: 173d9565eef77044492c050a7da8b311
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Heat Exchange
+    second: {fileID: 2100000, guid: 102725319f9d50845bba517a885b326f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
