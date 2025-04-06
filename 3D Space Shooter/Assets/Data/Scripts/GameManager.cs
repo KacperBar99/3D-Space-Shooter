@@ -4,9 +4,6 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField]
     Transform player;
-    [SerializeField]
-    float _time = 10f;
-    float _timer = 0f;
 
     private void Awake()
     {
@@ -14,12 +11,6 @@ public class GameManager : MonoBehaviour
     }
     private void FixedUpdate()
     {
-        _timer += Time.fixedDeltaTime;
-
-        if(_timer >= _time)
-        {
-            _timer = 0f;
-            this.transform.position = player.position;
-        }
+        this.transform.position = player.position;
     }
 }
